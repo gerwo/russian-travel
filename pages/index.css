@@ -1,0 +1,17 @@
+@import url('../blocks/fonts/_inter/inter.css');
+@import url('../blocks/main/main.css');
+@import url('../blocks/root/root.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/lang/lang.css');
+@import url('../blocks/lang/__item/lang__item.css');
+@import url('../blocks/lang/__link/lang__link.css');
+@import url('../blocks/lang/_active/lang_active.css');
+
+body {
+  margin: 0;
+}
+
+*{
+  font-family: "Inter", serif;
+}
