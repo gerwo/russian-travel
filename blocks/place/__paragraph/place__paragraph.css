@@ -6,3 +6,9 @@
   color: #fff;
   margin: 0 0 24px;
 }
+
+@media (max-width:768px){
+  .place__paragraph{
+    font-size: 16px;
+  }
+}

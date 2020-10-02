@@ -4,3 +4,16 @@
   grid-template-rows: repeat(2, auto);
   padding-bottom: 80px;
 }
+
+@media (max-width: 1024px){
+  .place{
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
+  }
+}
+
+@media (max-width: 768px){
+  .place{
+    grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+    padding-bottom: 72px;
+  }
+}
