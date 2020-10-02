@@ -1,0 +1,8 @@
+.place__link{
+  font-family: "Inter", serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration: underline;
+  color: #fff;
+}

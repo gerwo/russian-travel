@@ -1,0 +1,6 @@
+.place{
+  display: grid;
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 524px);
+  grid-template-rows: repeat(2, auto);
+  padding-bottom: 80px;
+}

@@ -1,0 +1,12 @@
+.footer__link{
+  font-family: "Inter", serif;
+  font-size: 18px;
+  line-height: 1.12;
+  font-weight: normal;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__link:last-child{
+  margin-right: 0;
+}

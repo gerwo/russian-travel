@@ -1,3 +1,5 @@
 .lang{
-  
+  display: grid;
+  grid-template: 1fr / repeat(2, 1fr);
+  grid-gap: 18px;
 }
