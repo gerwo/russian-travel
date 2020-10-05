@@ -1,7 +1,7 @@
 .place__website{
   align-self: end;
 }
-@media (max-width:425px){
+@media (max-width:550px){
   .place__website{
     display: none;
   }
