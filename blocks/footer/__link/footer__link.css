@@ -1,6 +1,6 @@
 .footer__link{
   font-family: "Inter", serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.12;
   font-weight: normal;
   color: #fff;
@@ -9,4 +9,11 @@
 
 .footer__link:last-child{
   margin-right: 0;
+}
+
+@media (max-width: 425px){
+  .footer__link{
+    font-size: 24px;
+    line-height: 1;
+  }
 }

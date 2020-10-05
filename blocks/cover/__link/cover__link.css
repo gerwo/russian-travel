@@ -6,3 +6,15 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media (max-width: 768px){
+  .cover__link{
+    font-size: calc( (100vw - 425px)/(768 - 425) * (76 - 32) + 32px);
+  }
+}
+
+@media (max-width: 425px){
+  .cover__link{
+    line-height: 1.09;
+  }
+}

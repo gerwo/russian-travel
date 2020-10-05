@@ -7,13 +7,13 @@
 
 @media (max-width: 1024px){
   .place{
-    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 424px);
   }
 }
 
 @media (max-width: 768px){
   .place{
-    grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+    grid-template-columns: minmax(min-content, 340px) minmax(min-content, 324px);
     padding-bottom: 72px;
   }
 }
