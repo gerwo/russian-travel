@@ -6,7 +6,7 @@
 @import url('../blocks/lang/lang.css');
 @import url('../blocks/lang/__item/lang__item.css');
 @import url('../blocks/lang/__link/lang__link.css');
-@import url('../blocks/lang/_active/lang_active.css');
+@import url('../blocks/lang/__link/_status/lang__link_status_active.css');
 
 @import url('../blocks/main/main.css');
 @import url('../blocks/lead/lead.css');
