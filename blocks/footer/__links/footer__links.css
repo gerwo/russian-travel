@@ -1,12 +1,12 @@
 .footer__links{
   display: grid;
   grid-template: 1fr / repeat(5, auto);
-  grid-gap: 18px;
+  gap: 18px;
 }
 
-@media (max-width: 425px){
+@media (max-width: 680px){
   .footer__links{
     grid-template: repeat(5, auto) / 1fr;
-    grid-gap: 32px;
+    gap: 32px;
   }
 }

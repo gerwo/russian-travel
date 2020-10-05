@@ -1,9 +1,21 @@
 .intro__title{
-  font-family: "Inter", serif;
+  font-family: "Inter", "Arial", serif;
   color: #fff;
   font-size: 54px;
   line-height: 1.07;
   font-weight: 900;
   max-width: 690px;
   margin: 0;
+}
+
+@media (max-width: 768px){
+  .intro__title{
+    font-size: calc((100vw - 425px)/(768 - 425) * (54 - 32) + 32px);
+  }
+}
+
+@media (max-width: 425px){
+  .intro__title{
+    font-size: 32px;
+  }
 }

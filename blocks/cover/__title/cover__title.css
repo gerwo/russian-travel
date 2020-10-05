@@ -4,6 +4,12 @@
   text-align: center;
 }
 
+@media (max-width: 768px){
+  .cover__title{
+    max-width: calc( (100vw - 425px)/(768 - 425) * (560 - 288) + 288px);
+  }
+}
+
 @media (max-width: 425px){
   .cover__title{
     max-width: 288px;

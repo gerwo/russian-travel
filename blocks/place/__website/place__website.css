@@ -1,4 +1,8 @@
 .place__website{
-  padding-left: 40px;
   align-self: end;
+}
+@media (max-width:425px){
+  .place__website{
+    display: none;
+  }
 }

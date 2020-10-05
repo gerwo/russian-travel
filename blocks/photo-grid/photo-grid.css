@@ -3,27 +3,26 @@
   padding: 92px 48px 0;
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(4, 1fr);
-  grid-gap: 16px;
-  min-height: 670px;
+  gap: 16px;
+  min-height: 600px;
 }
 
 @media (max-width: 1024px){
   .photo-grid{
     grid-template: repeat(4, 1fr) / repeat(3, 1fr);
-    min-height: 942px;
   }
 }
 
 @media (max-width: 768px){
   .photo-grid{
     grid-template: repeat(6, 1fr) / repeat(2, 1fr);
-    min-height: 1664px;
+    padding: 88px 24px 0;
   }
 }
 
 @media (max-width: 425px){
   .photo-grid{
     grid-template: auto / 1fr;
-    min-height: 2724px;
+    padding: 64px 16px 0;
   }
 }

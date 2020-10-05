@@ -12,9 +12,14 @@
   }
 }
 
+@media (max-width: 680px){
+  .footer{
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 425px){
   .footer{
     padding: 0 16px 24px;
-    flex-direction: column;
   }
 }

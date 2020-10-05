@@ -1,6 +1,5 @@
 .cover__background{
   width: 100%;
-  position: relative;
   z-index: 0;
   grid-area: 1 / 1 / 2 / 2;
 }

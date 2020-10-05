@@ -1,4 +1,12 @@
 .lead__image{
   width: 100%;
   padding-top: 64px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) and (max-width: 1080px){
+  .lead__image{
+    max-width: calc((100vw - 1024px)/(1080 - 1024) * (984 - 928) + 928px);
+  }
 }

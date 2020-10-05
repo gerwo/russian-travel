@@ -1,5 +1,5 @@
 .cover__link{
-  font-family: "Inter", serif;
+  font-family: "Inter", "Arial", serif;
   font-size: 72px;
   line-height: 1.06;
   font-weight: 900;
@@ -16,5 +16,6 @@
 @media (max-width: 425px){
   .cover__link{
     line-height: 1.09;
+    font-size: 32px;
   }
 }

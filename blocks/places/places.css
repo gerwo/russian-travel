@@ -4,9 +4,27 @@
   margin: 0 auto;
 }
 
+@media (min-width: 1024px) and (max-width: 1080px){
+  .places{
+    max-width: calc((100vw - 1024px)/(1080 - 1024) * (984 - 928) + 928px);
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 1024px){
   .places{
-    width: 100%;
+    max-width: 100%;
     padding: 92px 48px 0;
+  }
+}
+@media (max-width: 768px){
+  .places{
+    padding: 88px 24px 0;
+  }
+}
+
+@media (max-width: 425px){
+  .places{
+    padding: 64px 0 0;
   }
 }

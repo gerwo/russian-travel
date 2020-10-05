@@ -1,5 +1,5 @@
 .place__title{
-  font-family: "Inter", serif;
+  font-family: "Inter", "Arial", serif;
   font-size: 72px;
   line-height: 1.06;
   max-width: 460px;
@@ -8,9 +8,23 @@
   margin: 0;
 }
 
+@media (max-width: 1024px){
+  .place__title{
+    font-size: calc( (100vw - 768px)/(1024 - 768) * (72 - 42) + 42px);
+  }
+}
+
 @media (max-width: 768px){
   .place__title{
-    font-size: 42px;
+    font-size: calc( (100vw - 425px)/(768 - 425) * (42 - 32) + 32px);
     line-height: 1.1;
+  }
+}
+
+@media (max-width: 425px){
+  .place__title{
+    font-size: 32px;
+    line-height: 1.09;
+    padding: 0 16px;
   }
 }
