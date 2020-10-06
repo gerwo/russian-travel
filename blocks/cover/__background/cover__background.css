@@ -1,5 +1,6 @@
 .cover__background{
   width: 100%;
-  z-index: 0;
-  grid-area: 1 / 1 / 2 / 2;
+  background: url('../../../images/cover__background.jpg');
+  background-size: contain;
+  padding-top: 62.5%;
 }

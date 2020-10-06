@@ -1,21 +1,28 @@
 .cover__link{
-  font-family: "Inter", "Arial", serif;
-  font-size: 72px;
-  line-height: 1.06;
-  font-weight: 900;
-  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   text-decoration: none;
+  z-index: 1;
+  padding-top: 245px;
+}
+
+@media (max-width: 1280px){
+  .cover__link{
+    padding-top: calc((100vw - 1024px)/(1280 - 1024) * (245 - 195) + 195px);
+  }
+}
+
+@media (max-width: 1024px){
+  .cover__link{
+    padding-top: calc((100vw - 768px)/(1024 - 768) * (195 - 115) + 115px);
+  }
 }
 
 @media (max-width: 768px){
   .cover__link{
-    font-size: calc( (100vw - 425px)/(768 - 425) * (76 - 32) + 32px);
-  }
-}
-
-@media (max-width: 425px){
-  .cover__link{
-    line-height: 1.09;
-    font-size: 32px;
+    padding-top: calc((100vw - 320px)/(768 - 320) * (115 - 33) + 33px);
   }
 }
