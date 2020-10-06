@@ -1,6 +1,28 @@
 .cover__link{
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
   z-index: 1;
   align-self: center;
   grid-area: 1 / 1 / 2 / 2;
+  height: 100%;
+  padding-top: 245px;
+}
+
+@media (max-width: 1280px){
+  .cover__link{
+    padding-top: calc((100vw - 1024px)/(1280 - 1024) * (245 - 195) + 195px);
+  }
+}
+
+@media (max-width: 1024px){
+  .cover__link{
+    padding-top: calc((100vw - 768px)/(1024 - 768) * (195 - 115) + 115px);
+  }
+}
+
+@media (max-width: 768px){
+  .cover__link{
+    padding-top: calc((100vw - 320px)/(768 - 320) * (115 - 33) + 33px);
+  }
 }
